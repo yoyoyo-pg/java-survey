@@ -22,9 +22,14 @@ public class PdfBoxExample {
 		
 		try {
 			document = PDDocument.load(file);
-		
+			// 文字列のみ抽出
 			PDFTextStripper pdfTextStripper = new PDFTextStripper();
-	
+
+			// 左上から右下の順番で文字列を読み取る設定
+			// pdfStripper.setSortByPosition(true);
+			// pdfからテキスト抽出（デバッグ用）
+			// System.out.println(pdfStripper.getText(pdDoc));
+			
 			String pdfText = pdfTextStripper.getText(document);
 			
 			String[] splitText = pdfText.split("\n");
