@@ -1,3 +1,4 @@
-# pdfbox-sample
+# java-survey
 
-- PDFからpdf-boxを利用し、サジェストする際の秒数検証用ソースです
+- pdfbox-sample
+  - PDFからpdf-boxを利用し、サジェストする際の秒数検証用ソースです
