@@ -3,7 +3,7 @@ package main.mailValidate;
 import jakarta.mail.internet.AddressException;
 import jakarta.mail.internet.InternetAddress;
 
-public class MailValidation {
+public class MailValidateForJakaltaMail {
 
   public static void main(String[] args) throws AddressException {
     // テストパターン
